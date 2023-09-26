@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "name": "useAdmins",
+    "location": "__backengine__/hooks/useAdmins.ts",
+    "type": "HOOK",
+    "entityType": "TABLE",
+    "entityName": "admins",
+    "usage": "const { admins, fetchAdmins, createAdmin, updateAdmin, deleteAdmin } = useAdmins();"
+  },
+  {
+    "name": "useEntries",
+    "location": "__backengine__/hooks/useEntries.ts",
+    "type": "HOOK",
+    "entityType": "TABLE",
+    "entityName": "entries",
+    "usage": "const { entries, fetchEntries, createEntry, updateEntry, deleteEntry } = useEntries();"
+  },
+  {
+    "name": "useNotifications",
+    "location": "__backengine__/hooks/useNotifications.ts",
+    "type": "HOOK",
+    "entityType": "TABLE",
+    "entityName": "notifications",
+    "usage": "const { notifications, fetchNotifications, createNotification, updateNotification, deleteNotification } = useNotifications();"
+  },
+  {
+    "name": "useCategories",
+    "location": "__backengine__/hooks/useCategories.ts",
+    "type": "HOOK",
+    "entityType": "TABLE",
+    "entityName": "categories",
+    "usage": "const { categories, fetchCategories, createCategory, updateCategory, deleteCategory } = useCategories();"
+  },
+  {
+    "name": "useVotes",
+    "location": "__backengine__/hooks/useVotes.ts",
+    "type": "HOOK",
+    "entityType": "TABLE",
+    "entityName": "votes",
+    "usage": "const { votes, fetchVotes, createVote, updateVote, deleteVote } = useVotes();"
+  },
+  {
+    "name": "useContests",
+    "location": "__backengine__/hooks/useContests.ts",
+    "type": "HOOK",
+    "entityType": "TABLE",
+    "entityName": "contests",
+    "usage": "const { contests, fetchContests, createContest, updateContest, deleteContest } = useContests();"
+  },
+  {
+    "name": "useUsers",
+    "location": "__backengine__/hooks/useUsers.ts",
+    "type": "HOOK",
+    "entityType": "TABLE",
+    "entityName": "users",
+    "usage": "const { users, fetchUsers, createUser, updateUser, deleteUser } = useUsers();"
+  }
+]
